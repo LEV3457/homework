@@ -1,2 +1,6 @@
-m = int(input("Введите количество метров: "))
-print(f"километров:{m // 1000}")
+import pandas as pd
+
+gg = pd.read_csv("Fake.csv")
+
+af = df["AGE"].agg([])
+print(af)

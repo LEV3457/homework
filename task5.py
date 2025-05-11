@@ -1,2 +1,5 @@
-days = 234
-print(f"недель: {days // 7}")
+import pandas as pd
+
+df = pd.read_csv("Fake.csv")
+
+print(df.instull().sum())
